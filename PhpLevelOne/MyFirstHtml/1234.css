@@ -1,0 +1,47 @@
+.header{
+	width: 1400px;
+	height: 100px;
+	margin: 20px auto;
+	background-color: none;
+	background-attachment: fixed;
+	font-size: 23px;
+	font-family: Comic Sans MS;
+	font-style: inherit;
+
+
+}
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li{
+	display: block;
+	padding: 30px 100px 5px 10px;
+	transition: .5s;
+}
+li a{
+	text-decoration: none;
+	color: yellow;
+	transition: .1s;
+}
+ul:hover li a{
+	filter: blur(5px);
+}
+ul:hover li a:hover{
+	font-size: 25px;
+	filter: blur(0px);
+	background-color: silver;
+}
+
+.footer{
+	width: 1355px;
+	height: 100px;
+	background-color: none;
+}
+
+body{
+	background: url(img/card.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}

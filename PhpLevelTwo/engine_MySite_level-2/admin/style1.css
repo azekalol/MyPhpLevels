@@ -1,0 +1,31 @@
+header {
+	text-align: center;
+	word-spacing: 90px;
+	width: 1350px;
+	height: 50px;
+	background-color: silver;
+}
+
+header a {
+	font-size: 20px;
+	margin: 0 35px;
+	text-decoration: none;
+}
+
+header a.active {
+	text-decoration: underline;
+}
+
+main {
+	height: 550px;
+	width: 1205px;
+}
+
+footer {
+	text-align: center;
+}
+
+main table td, main table th {
+	border: 1px solid silver;
+	padding: 10px;
+}
